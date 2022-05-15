@@ -1,4 +1,4 @@
-# PortfolioAngularBootstrap
+# Details and Credits
 
 Source code for my personal portfolio website.
 
