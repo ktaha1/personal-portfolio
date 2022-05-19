@@ -36,11 +36,13 @@
 
       <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
         <form
+          action="/success"
           method="POST"
           role="form"
           class="php-email-form"
           data-netlify="true"
           name="contact"
+          (ngSubmit)="onSubmit()"
         >
           <div class="row">
             <div class="form-group col-md-6">

@@ -10,9 +10,10 @@ import { ResumeComponent } from './resume/resume.component';
 import { SkillsComponent } from './skills/skills.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactComponent } from './contact/contact.component';
+import { SuccessComponent } from './success/success.component';
 
 @NgModule({
-  declarations: [AppComponent, HeroComponent, HeaderComponent, AboutComponent, ResumeComponent, SkillsComponent, PortfolioComponent, ContactComponent],
+  declarations: [AppComponent, HeroComponent, HeaderComponent, AboutComponent, ResumeComponent, SkillsComponent, PortfolioComponent, ContactComponent, SuccessComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
